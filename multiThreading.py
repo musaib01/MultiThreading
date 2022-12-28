@@ -1,7 +1,11 @@
+# SYED MUSAIB HUSSAIN
+# 200901065
+# MULTITHREADING LAB TASK
+
 import threading
 
 def SJF(num):
-    print("Shortest job first")
+    print("\nShortest job first")
     def bubbleSort(burst_arr, arrival_arr, process_id_arr):
         n = len(arrival_arr)
        
@@ -94,11 +98,6 @@ def FCFS(num):
         burst_time = [6, 2, 4]
         waiting_time = []
         turn_around_time = []
-
-        # Printing values
-        print()
-        print("executing")
-
 
         x = 0
         waiting_time.append(x)
